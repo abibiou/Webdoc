@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+}
+.title-container {
+    color: #0B0C56;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    display: inline-block;
+    margin: 0; 
+    overflow-y: hidden;
+}
+
+.title-container:hover {
+    background-color: #0B0C56; 
+    color: white;
+    cursor: pointer; 
+    padding: 10px 20px; 
+    display: inline-block;
+    margin: 0; 
+    overflow-y: hidden;
+}
+
+.title-container a {
+    text-decoration: none;
+    color: inherit;
+}
+.portrait{
+    background-color: #579682;
+    border-top: 60px;
+}
+
+.text-title {
+    color: white;
+    background-color: #002366; 
+    padding: 10px 20px; 
+    display: inline-block;
+    margin: 0; 
+}
+.text-title2 {
+    background-color: #427364; 
+    padding: 10px 20px; 
+    display: inline-block; 
+    margin: 0;
+}
+
+.partiedeux{
+    background-color: #BBF0E8;
+}
+
+.article4{
+    background-color: #BBF0E8;
+}
+
+.article4part2{
+    background-color: #579682; 
+}
+
+.toka{
+    background-color: #579682; 
+}
+
