@@ -13,14 +13,31 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
+     <section>
     <div class="banner" style="position: relative; display: inline-block;">
         <video autoplay loop muted playsinline>
-            <source src="../video/videodelintro.mp4" type="video/mp4">
+            <source src="../video/portequiseferme.mp4" type="video/mp4">
         </video>
-        
-        <button type="button" class="btn zizou" onclick="window.location.href='article.html'" style="position: absolute; top: 60%; left: 50%; transform: translate(-50%, -50%);">
-            Passez l'introduction
-        </button>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-12">
+                    <div class="position-absolute top-50 start-50 translate-middle text-center text-white">
+                        <h3 class="fw-normal p-3" style="line-height: 130%;">
+                           Laissez descendre les passagers avant de monter dans le train. Attention à ne pas gêner l'ouverture et la fermeture des portes. 
+                        </h3>
+                        <button type="button" class="btn zizou" onclick="window.location.href='article.html'">
+                            Passez l'introduction
+                        </button>
+                        
+                    </div>
+                </div>
+            </div>
+    </div>
+       <button type="button" class="btn mt-3 mx-3 son" onclick="playVideo()">
+                <img src="../img/son.png" alt="Son" class="img-fluid" style="height: 100%;" />
+            </button>
+</div>
+</section>
         <button type="button" class="btn mt-3 mx-3 son" onclick="playVideo()">
             <img src="../img/son.png" alt="Son" class="img-fluid" style="height: 100%;" />
         </button>
